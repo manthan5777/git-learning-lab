@@ -1,0 +1,4 @@
+﻿Restore command notes
+
+git restore file
+git restore --staged file
