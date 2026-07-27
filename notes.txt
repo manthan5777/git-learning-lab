@@ -1,0 +1,4 @@
+﻿Git learning notes
+
+1. Git tracks project history.
+2. GitHub hosts remote Git repositories.
