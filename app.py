@@ -23,6 +23,16 @@ def modulus(a, b):
         raise ValueError("Cannot calculate modulus with zero.")
     return a % b
 
+def modulus(a, b):
+    if b == 0:
+        raise ValueError("Cannot calculate modulus with zero.")
+    return a % b
+
+
+def cube(a):
+    return a * a * a
+
+
 if __name__ == "__main__":
     print(greet("Manthan"))
     print(f"Addition result: {add(2, 3)}")
@@ -30,3 +40,5 @@ if __name__ == "__main__":
     print(f"Multiplication result: {multiply(4, 5)}")
     print(f"Division result: {divide(20, 4)}")
     print(f"Modulus result: {modulus(10, 3)}")
+    print(f"Cube result: {cube(3)}")
+
