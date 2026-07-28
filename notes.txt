@@ -4,3 +4,4 @@
 2. GitHub hosts remote Git repositories.
 3. A commit records a selected checkpoint.
 4. Git restore can discard working-directory changes.
+Interactive rebase can clean commit history.
