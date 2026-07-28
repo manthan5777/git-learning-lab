@@ -5,3 +5,4 @@
 3. A commit records a selected checkpoint.
 4. Git restore can discard working-directory changes.
 Interactive rebase can clean commit history.
+Commits can be combined.
