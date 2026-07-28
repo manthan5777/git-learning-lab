@@ -32,6 +32,8 @@ def modulus(a, b):
 def cube(a):
     return a * a * a
 
+def history_message():
+    return "Git history is easier to read with focused commits."
 
 if __name__ == "__main__":
     print(greet("Manthan"))
@@ -41,4 +43,5 @@ if __name__ == "__main__":
     print(f"Division result: {divide(20, 4)}")
     print(f"Modulus result: {modulus(10, 3)}")
     print(f"Cube result: {cube(3)}")
+    print(history_message())
 
