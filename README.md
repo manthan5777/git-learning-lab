@@ -9,3 +9,5 @@ Important recovery practice.
 This repository demonstrates Git collaboration workflows.
 
 Branch protection test.
+
+Main branch is protected through GitHub rulesets.
