@@ -1,0 +1,32 @@
+﻿name: First GitHub Actions Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  run-calculator:
+    name: Run calculator application
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository code
+        uses: actions/checkout@v4
+
+      - name: Show runner information
+        run: |
+          echo "GitHub Actions is running"
+          echo "Operating system:"
+          uname -a
+          echo "Python version:"
+          python --version
+
+      - name: Run calculator
+        run: python app.py

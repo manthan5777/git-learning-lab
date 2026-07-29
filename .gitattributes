@@ -1,0 +1,31 @@
+﻿# Automatically detect text files and normalize them to LF in Git
+* text=auto
+
+# Python files should use LF
+*.py text eol=lf
+
+# Markdown and text files should use LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# YAML files should use LF
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Windows scripts should use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.joblib binary
+*.pkl binary
