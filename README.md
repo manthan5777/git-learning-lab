@@ -7,3 +7,5 @@ This project demonstrates practical Git workflows.
 Important recovery practice.
 
 This repository demonstrates Git collaboration workflows.
+
+Branch protection test.
