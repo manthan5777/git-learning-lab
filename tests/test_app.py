@@ -1,6 +1,6 @@
-﻿import pytest
+import pytest
 
-from app import add, subtract, multiply, divide, modulus, cube
+from app import add, cube, divide, modulus, multiply, subtract
 
 
 def test_add():

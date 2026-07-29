@@ -1,4 +1,4 @@
-﻿def greet(name):
+def greet(name):
     return f"Hello, {name}! Welcome to the Git learning lab."
 
 
@@ -13,15 +13,12 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+
 def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero.")
     return a / b
 
-def modulus(a, b):
-    if b == 0:
-        raise ValueError("Cannot calculate modulus with zero.")
-    return a % b
 
 def modulus(a, b):
     if b == 0:
@@ -32,8 +29,10 @@ def modulus(a, b):
 def cube(a):
     return a * a * a
 
+
 def history_message():
     return "Git history is easier to read with focused commits."
+
 
 if __name__ == "__main__":
     print(greet("Manthan"))
@@ -44,4 +43,3 @@ if __name__ == "__main__":
     print(f"Modulus result: {modulus(10, 3)}")
     print(f"Cube result: {cube(3)}")
     print(history_message())
-
