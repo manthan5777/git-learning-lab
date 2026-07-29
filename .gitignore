@@ -15,3 +15,6 @@ __pycache__/
 # Build outputs
 dist/
 build/
+
+# Generated test reports
+reports/
